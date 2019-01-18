@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>project</title>
+</head>
+<body>
+<div>
+    <span th:text="${welcome}"></span>
+    <form th:action="@{/logout}" method="post">
+        <label>
+            <input type="submit" value="logout">
+        </label>
+    </form>
+    <table>
+
+    </table>
+</div>
+</body>
+</html>
